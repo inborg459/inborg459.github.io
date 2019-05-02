@@ -18,7 +18,7 @@ var sdkConfig = {
         REFINEMENT_LISTS_SHOW_LESS: 'REFINEMENT_LISTS_SHOW_LESS',
         REFINEMENT_LISTS_TITLE: 'REFINEMENT_LISTS_TITLE'
     },
-    userType: 1
+    userType: 0
 }
 var sdk = InbentaSearchSDK.createFromDomainKey(app.sdkAuth.domainKey, app.sdkAuth.publicKey, sdkConfig);
 
